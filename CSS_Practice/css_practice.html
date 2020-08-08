@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS Practice</title>
+    <style>
+        
+        h1 {
+            background-color: yellow;
+        }
+        
+        h1:hover {
+            background-color: pink;
+        }
+        
+        button {
+            color: white;
+            background-color: blue;
+        }
+        
+        button:hover {
+            background-color: purple;
+        }
+        
+        input:focus {
+            color: red;
+            background-color: aquamarine;
+        }
+        
+        .btwo:focus {
+            border-radius: 10px;
+            background-color: indigo;
+        }
+        
+        button:active {
+            color: darkorange;
+            font-size: 1.5rem;
+        }
+        
+        h2:active {
+            color: red;
+            font-size: 2rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- Pseudo-Class Hover -->
+        <h1>Pseudo-Class Hover</h1>
+        <p><button>HIT ME!</button></p>
+        
+        <form>
+            <!-- Pseudo-Class Focus -->
+            <input type="text" placeholder="name">
+            <button class="btwo">Submit</button>
+        </form>
+        
+        <!-- Pseudo-Class Active -->
+        <h2>Wonder Twin Powers, Activate!!</h2>
+        <p><button>CLICK ME!</button></p>
+    </div>
+</body>
+</html>
