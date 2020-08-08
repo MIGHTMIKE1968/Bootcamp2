@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS Transform</title>
+    <style>
+        p {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+        
+        p.move-right {
+            background-color: orangered;
+            transform: translateX(100px);
+        }
+        
+        p.move-down {
+            background-color: dodgerblue;
+            transform: translateY(25px);
+        }
+        
+        p:hover {
+            transform: translate(15px, 15px);
+        }
+    </style>
+</head>
+
+<body>
+    
+<p></p>
+<!-- transform - translateX -->
+<p class="move-right"></p>
+<p></p>
+<!-- transform - translateY -->
+<p class="move-down"></p>
+    
+</body>
+</html>
+
