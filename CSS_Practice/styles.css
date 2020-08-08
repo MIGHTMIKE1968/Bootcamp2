@@ -1,3 +1,7 @@
+body {
+    margin: 50px;
+}
+
 p {
     width: 100px;
     height: 100px;
@@ -32,4 +36,11 @@ h1.transformed {
     background-color: hotpink;
     transform: scale(2);
     transform-origin: 0 0;
+}
+
+h1.rotation {
+    background-color: green;
+    transform: rotate(90deg);
+    transform-origin: right bottom;
+    margin-top: 150px;
 }
